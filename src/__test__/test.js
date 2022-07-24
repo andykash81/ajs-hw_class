@@ -9,7 +9,7 @@ import Zombie from '../zombie';
 test('Character correct', () => {
   const character = new Character('hero', 'Bowman');
   const correct = {
-    name: 'hero', type: 'Bowman', health: 100, level: 1, attack: 0, defence: 0,
+    name: 'hero', type: 'Bowman', health: undefined, level: undefined, attack: undefined, defence: undefined,
   };
   expect(character).toEqual(correct);
 });
